@@ -1,0 +1,52 @@
+.header {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    color: black;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.logo {
+    margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    width: 20%;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    color: rebeccapurple;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10px;
+}
+
+.gif-list {
+    column-gap: 1.5em;
+    font-size: .85em;
+    margin: auto;
+    padding: 0;
+}
+
+.gif-item {
+    box-shadow: 2px 2px 4px 0 #ccc;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0 0 1.5em;
+    padding: 1em;
+    width: 33%;
+}
+
+.gif-item img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.loader {
+    color: purple;
+    display: flex;
+    justify-content: center;
+}

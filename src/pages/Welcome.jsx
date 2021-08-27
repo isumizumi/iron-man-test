@@ -7,7 +7,7 @@ function Welcome() {
     return (
         <div>
             <h3 className="header">WELCOME TO YOUR GIPHY</h3>
-            <img src={logo} alt="Logo" className="logo" />
+            <img src={logo} alt="logo" className="logo" />
             <Routes />
         </div>
     );

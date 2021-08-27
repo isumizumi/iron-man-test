@@ -18,7 +18,7 @@ function SearchGifForm(props) {
         return data.map(el => {
         return (
             <div key={el.id} className="gif-item">
-              <img src={el.images.fixed_height.url} />
+              <img src={el.images.fixed_height.url} alt="images" />
             </div>
         );
         });

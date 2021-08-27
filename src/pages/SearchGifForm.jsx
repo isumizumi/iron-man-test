@@ -4,7 +4,6 @@ import Loader from "./Loader";
 
 const endpoint = 'https://api.giphy.com/v1/gifs/search'
 const apikey = '3ejnZPnQHUneTCi7oxzIep8mGWBgY0PP'
-const keyword = ["iron man", "avengers", "tony stark", "marvel"]
 
 function SearchGifForm(props) {
     const [data, setData] = useState([]);
